@@ -18,9 +18,9 @@ Code:
 def find_min(arr):
     if not arr:
         return None
-    min_val = float('inf')
+    min_val = arr[0]
 
-    for x in arr:
+    for x in arr[1:]:
         if x < min_val:
             min_val = x
 
