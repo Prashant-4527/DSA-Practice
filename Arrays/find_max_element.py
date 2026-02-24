@@ -26,3 +26,7 @@ def find_max(arr):
         if x > max_val:
             max_val = x
     return max_val
+
+#Example:
+Input: [4, 2, 5, 3]
+Output: 5
