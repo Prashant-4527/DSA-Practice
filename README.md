@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![Progress](https://img.shields.io/badge/Progress-Month%201%20of%205-orange)
 ![Problems](https://img.shields.io/badge/Problems%20Solved-23%2B-brightgreen)
-![Roadmap](https://img.shields.io/badge/Goal-METI%20Internship%202026-red)
+![Roadmap](https://img.shields.io/badge/Goal-METI%20Internship%202027-red)
 
 ---
 
