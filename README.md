@@ -99,7 +99,7 @@ def two_sum(nums, target):
 
 ## 🎯 Goal
 
-> Land a **METI-sponsored internship in Japan** (2026) and ultimately join a top Japanese tech company as an **AI Engineer** by 2028.
+> Land a **METI-sponsored internship in Japan** (2027) and ultimately join a top Japanese tech company as an **AI Engineer** by 2028.
 
 This repo is one pillar of a larger self-study plan that includes Python/AI, Data Science, and Japanese (JLPT N4 → N1).
 
