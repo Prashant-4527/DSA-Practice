@@ -72,6 +72,33 @@ def rotate_k(arr, k):
 
     return arr
 
+# Time: O(n), Space: O(1)
 
 # Tests: 
 print(rotate_k([1, 2, 3, 4, 5, 6, 7, 8, 8], 3))
+
+
+# Rotate LEFT by k:
+def rotate_left_k(arr, k):
+    n = len(arr)
+    k = k % n 
+    return rotate_k(arr, n-k)  # Left by k = right by (n-k)
+
+
+# How to answer "Why three reversals" in interviews:
+'''
+When we reverse the full array, the last K elements appear at the front - but they're in reversed order. The remaining
+elements are at the back - also reversed.
+So we fix each half with one more reversal each. Three reversal total: full, first, first, second half - and the array is 
+correctly rotated.
+
+'''
+
+# Interview Explaination:
+'''
+The Brute Force rotates one position at a time, K times - that's O(n*k) which become O(n^2) for large K.
+The optimal approach is the three-reverse trick. First, normalize K with K mod n to handle cases where K is larger than the array.
+Then reverse the entire array. Then reverse the first K elements. Then reverse the remaining. Three O(n) opreation = O(n)
+total, O(1) space. This is a LeetCode medium that most people brute-force. The reverse trick is what separates candinates.
+
+'''

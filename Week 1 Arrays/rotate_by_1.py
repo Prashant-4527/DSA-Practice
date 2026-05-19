@@ -61,3 +61,12 @@ def rotate_left(arr):
 print(rotate_left([1, 2, 3, 4, 5]))
 print(rotate_right([1, 2, 3, 4, 5]))
 
+
+
+# Interview Explaination:
+'''
+For a right rotation by 1, i save the last element in temp variable, then shift every element one position to the 
+starting from the last index going backwards, and finally place the saved element at index 0. This is O(n) time and
+O(1) space. For left rotation, I mirror the logic - save first element, shift left, place at the end.
+
+'''

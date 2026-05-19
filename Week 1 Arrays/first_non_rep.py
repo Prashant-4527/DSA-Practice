@@ -48,4 +48,4 @@ def find_first_non_repeat_element(arr):
     return -1
 
 # Test case: 
-print(find_first_non_repeat_element([1, 2, 3, 4, 5, 1, 2, 3, 4]))
+print(find_first_non_repeat_element([1, 2, 3, 4, 5, 1, 2, 3, 4])) # 5

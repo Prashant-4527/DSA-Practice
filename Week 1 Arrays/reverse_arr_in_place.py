@@ -82,5 +82,14 @@ def reverse_partical(arr, l, r):
     return arr
 arr = [1, 2, 3, 4, 5]
 print(reverse_partical(arr, 1, 4))
+# Only reversed between index 1 and 4
 
+
+# Interview Explaintion:
+'''
+I'll use two pointers - left starting at index 0 and right at the last index. In each iteration i swap the elements at both
+pointers, then move left forward and right backward. I stop when they meet. This is O(n) time, O(1) space,- Truely in place with
+no extra memory. for the recursive version the logic is identical but uses the call stack, making it O(n) space- so iterative
+is preferred.
+'''
 

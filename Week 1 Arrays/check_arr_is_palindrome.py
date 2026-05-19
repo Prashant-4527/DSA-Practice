@@ -33,6 +33,8 @@ def is_palindrome(arr):
 
     return True # All pairs matched -> palindrome
 
+# Time: O(n), Space: O(1)
+
 arr1 = [1, 2, 4, 2, 1]
 arr2 = [1, 2, 3, 4, 5]
 
@@ -40,3 +42,13 @@ print(is_palindrome_brute(arr1))
 print(is_palindrome_brute(arr2))
 print(is_palindrome(arr1))
 print(is_palindrome(arr2))
+
+
+
+# Interview Explaintion:
+'''
+I'll use two pointers - left at index 0 and right at last index. i compare both elements. if they match, i move both pointers
+inward. if they don't match at any point, i immediatly return false. if the loop finishes without a mismatch, its a palindrome.
+This is O(n) time and O(1) space - no extra array needed.
+
+'''

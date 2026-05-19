@@ -55,3 +55,9 @@ arr = [1, 2, 3, 4, 5, 5, 5, 4, 6, 44, 55, 1]
 
 print(count_freq(arr))
 
+
+# Time: O(n), Space: O(n)
+
+# Interview Explaination (Hindi): 
+'''Main ek single pass me hashmap use krunga. dict.get(num, 0)+1 
+pattern se - agr element phele se hai tho count bda nhi hai tho 1 se shuru kro''' 
